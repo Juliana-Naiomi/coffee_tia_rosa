@@ -1,0 +1,89 @@
+/* Código de estilos CSS - Coffee Shops Tia Rosa */
+*{
+    margin: 0%;
+}
+
+body{
+    font-family: Poppins; 
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+}
+
+header{
+    background-image: url(./img/fundo1.jpg);
+    color: #efece8;
+    padding: 20px;
+}
+
+#menu{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 49px;
+    text-align: center;
+    font-size: larger;
+    }
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.nav{
+    color: black;
+}
+
+#sobre{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    padding: 5%;
+        
+}
+
+#sobreTexto{
+    font-size: 29px;
+    color: rgb(42, 2, 2);
+    padding-right: 8%;
+}
+
+img{
+    border-radius: 5%;
+}
+
+#contato{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    padding: 3%;
+    background-color: #b5662a;
+    margin: 0%;
+}
+#cardapio{
+    padding: auto;
+    background-color: #e2e2e2;
+    margin: 0%;
+    text-align: center;
+    padding: 2%;
+}
+
+#localizacao{
+    background-image: url(img/fundo2.jpg);
+    color:  rgb(42, 2, 2);
+    text-align: center;
+    padding: 2%;
+}
+
+footer{
+    background-color: black;
+    color:aliceblue;
+    text-align: center;
+
+}
